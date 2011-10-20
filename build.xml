@@ -2,7 +2,7 @@
   <property name="src" location="src"/>
   <property name="build" location="web-inf/"/>
   
-  <property name="appengine.sdk.dir" location="F:/appengine-java-sdk-1.5.3/"/>
+  <property name="appengine.sdk.dir" location="f:/appengine-java-sdk-1.5.3/"/>
   <import file="${appengine.sdk.dir}/config/user/ant-macros.xml"/>
     
    <target name="run-gae" depends="compile"> 
@@ -14,7 +14,7 @@
 	<property name="myclasspath" refid="classpath"/>
 	<!-- Emit the property to the ant console -->
 		<echo message="Classpath = ${myclasspath}"/>  
-        <java fork="false" classname="interview.tagged.neo4j.WebServer">
+        <java fork="false" classname="michael.ranks.neo4j.WebServerNeo4j">
              <classpath>
                 <path refid="classpath"/>
              </classpath>
@@ -40,10 +40,10 @@
 
   <path id="classpath">  
     <pathelement path="${build}/classes"/>  
-    <fileset dir="${build}/lib">
+    <fileset dir="gae-dev-lib">
         <include name="*.jar"/>
     </fileset>
-    <fileset dir="gae-war/lib">
+    <fileset dir="neo4j-dev-lib">
         <include name="*.jar"/>
     </fileset>        
   </path>  
