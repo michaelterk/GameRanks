@@ -1,0 +1,24 @@
+<h1>Welcome to Foosball Ratings!</h1>
+
+<h2>view current ranks</h2>
+<p><a href="/ranks/winners">The Winners!</a> or <a href="/ranks/losers">The Losers!</a></p>
+
+<form action="/ranks" method="POST">
+	<h2>enter results</h2>
+	<p>player1 <input type="text" name="player1"/></p>
+	<p>score1 <input type="text" name="score1"/></p>
+	<p>player2 <input type="text" name="player2"/></p>
+	<p>score2 <input type="text" name="scre2"/></p>
+	<input type="submit"/>
+</form>
+
+<form action="/ranks/upload" enctype="multipart/form-data" method="POST">
+	<h2>upload file</h2>
+	<p><input type="file" name="file" size="40"></p>
+	<input type="submit"/>
+</form>
+
+<form action="/ranks/clear" method="POST">
+	<h2>clear all data</h2>
+	<input type="submit"/>
+</form>

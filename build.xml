@@ -1,0 +1,56 @@
+<project name="Ranks" default="run" basedir=".">
+  <property name="src" location="src"/>
+  <property name="build" location="web-inf/"/>
+  
+  <property name="appengine.sdk.dir" location="F:/appengine-java-sdk-1.5.3/"/>
+  <import file="${appengine.sdk.dir}/config/user/ant-macros.xml"/>
+    
+   <target name="run-gae" depends="compile"> 
+  		<dev_appserver war="gae-war/"/>
+   </target>		
+    
+  <target name="run-neo4j" depends="compile">
+	<!-- Capture the path as a delimited property using the refid attribute -->
+	<property name="myclasspath" refid="classpath"/>
+	<!-- Emit the property to the ant console -->
+		<echo message="Classpath = ${myclasspath}"/>  
+        <java fork="false" classname="interview.tagged.neo4j.WebServer">
+             <classpath>
+                <path refid="classpath"/>
+             </classpath>
+        </java>
+  </target>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}/classes/"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}/classes/">
+      <classpath>
+         <path refid="classpath"/>
+      </classpath>
+    </javac>
+  </target>
+
+  <path id="classpath">  
+    <pathelement path="${build}/classes"/>  
+    <fileset dir="${build}/lib">
+        <include name="*.jar"/>
+    </fileset>
+    <fileset dir="gae-war/lib">
+        <include name="*.jar"/>
+    </fileset>        
+  </path>  
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}/classes/"/>
+  </target>
+</project>

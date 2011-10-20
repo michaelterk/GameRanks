@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="gae-dev-lib/appengine-api.jar"/>
+	<classpathentry kind="lib" path="gae-dev-lib/appengine-tools-api.jar"/>
+	<classpathentry kind="lib" path="gae-dev-lib/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="gae-dev-lib/objectify-3.0.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/guice-2.0.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/guice-servlet-2.0.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jersey-bundle-1.9.1.jar" sourcepath="F:/Jersey/jersey-bundle-1.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jersey-guice-1.9.1.jar" sourcepath="F:/Jersey/jersey-guice-1.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jersey-multipart-1.9.1.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-continuation-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-http-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-io-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-security-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-server-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-servlet-7.5.3.v20111011.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jetty-util-7.5.3.v20111011.jar" sourcepath="F:/Jersey/jersey-bundle-1.9.1-sources.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/lucene-core-3.1.0.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/mimepull-1.8.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/neo4j-community-1.5.M02.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/neo4j-kernel-1.5.M02.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/neo4j-lucene-index-1.5.M02.jar"/>
+	<classpathentry kind="lib" path="neo4j-dev-lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="output" path="gae-war/WEB-INF/classes"/>
+</classpath>

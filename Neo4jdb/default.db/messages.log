@@ -1,0 +1,788 @@
+2011-10-18 12:24:43.102-0700: Creating new db @ .\Neo4jdb\default.db\neostore
+2011-10-18 12:24:46.649-0700: Opened [.\Neo4jdb\default.db\nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2011-10-18 12:24:46.756-0700: Opened [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] clean empty log, version=0, lastTxId=1
+2011-10-18 12:24:46.863-0700: TM new log: tm_tx_log.1
+2011-10-18 12:24:46.951-0700: --- CONFIGURATION START ---
+2011-10-18 12:24:46.951-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 12:24:46.956-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 12:24:46.958-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 12:24:46.961-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 12:24:46.963-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 12:24:46.964-0700: VM Vendor: Oracle Corporation
+2011-10-18 12:24:46.967-0700: VM Version: 21.0-b17
+2011-10-18 12:24:46.969-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 12:24:46.970-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 12:24:46.972-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 12:24:46.977-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 12:24:46.979-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 12:24:46.981-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:53267, -Dfile.encoding=Cp1252]
+2011-10-18 12:24:46.984-0700: 
+2011-10-18 12:24:46.987-0700: create=true
+2011-10-18 12:24:46.989-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 12:24:46.991-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 12:24:46.993-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 12:24:46.995-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 12:24:46.997-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 12:24:47.000-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 12:24:47.002-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 12:24:47.004-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 12:24:47.005-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 12:24:47.007-0700: node_auto_indexing=false
+2011-10-18 12:24:47.009-0700: rebuild_idgenerators_fast=true
+2011-10-18 12:24:47.011-0700: relationship_auto_indexing=false
+2011-10-18 12:24:47.013-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 12:24:47.015-0700: use_memory_mapped_buffers=false
+2011-10-18 12:24:47.017-0700: --- CONFIGURATION END ---
+2011-10-18 21:09:09.855-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 21:09:09.890-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 21:09:09.895-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 21:09:09.903-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 21:09:09.906-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 21:09:09.912-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 21:09:09.915-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 21:09:09.919-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 21:09:09.923-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 21:09:09.928-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 21:09:09.987-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.1]. Recovery started ...
+2011-10-18 21:09:09.994-0700: [.\Neo4jdb\default.db\nioneo_logical.log.1] logVersion=0 with committed tx=1
+2011-10-18 21:09:10.072-0700: [.\Neo4jdb\default.db\nioneo_logical.log.1] entries found=6 lastEntryPos=221
+2011-10-18 21:09:10.075-0700: Internal recovery completed, scanned 6 log entries. Recovered 1 transactions. Last tx recovered: 2
+2011-10-18 21:09:10.076-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 1 xids
+2011-10-18 21:09:10.080-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 21:09:10.559-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:10.810-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 21:09:10.970-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:11.102-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:11.233-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:11.909-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:12.087-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:09:12.217-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 21:09:12.405-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 21:09:12.478-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 21:09:12.478-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.1] completed.
+2011-10-18 21:09:12.627-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1]. Recovery started ...
+2011-10-18 21:09:12.634-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] logVersion=0 with committed tx=1
+2011-10-18 21:09:12.985-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] entries found=8 lastEntryPos=311
+2011-10-18 21:09:12.988-0700: Internal recovery completed, scanned 8 log entries. Recovered 2 transactions. Last tx recovered: 3
+2011-10-18 21:09:12.989-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 1 xids
+2011-10-18 21:09:12.992-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 21:09:12.995-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 21:09:12.998-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] completed.
+2011-10-18 21:09:13.008-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 21:09:13.027-0700: TM non resolved transactions found in ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 21:09:13.127-0700: Rotating [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] @ version=0 to C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2 from position 316
+2011-10-18 21:09:13.216-0700: Rotate: old log scanned, newLog @ pos=16
+2011-10-18 21:09:13.262-0700: Log rotated, newLog @ pos=16 and version 1
+2011-10-18 21:09:13.494-0700: Rotating [.\Neo4jdb\default.db\nioneo_logical.log.1] @ version=0 to .\Neo4jdb\default.db\nioneo_logical.log.2 from position 226
+2011-10-18 21:09:13.586-0700: Rotate: old log scanned, newLog @ pos=16
+2011-10-18 21:09:13.793-0700: Log rotated, newLog @ pos=16 and version 1
+2011-10-18 21:09:13.796-0700: Recovery completed, all transactions have been resolved to a consistent state.
+2011-10-18 21:09:13.813-0700: --- CONFIGURATION START ---
+2011-10-18 21:09:13.815-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 21:09:13.820-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 21:09:13.824-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 21:09:13.908-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 21:09:13.911-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 21:09:13.913-0700: VM Vendor: Oracle Corporation
+2011-10-18 21:09:13.917-0700: VM Version: 21.0-b17
+2011-10-18 21:09:14.009-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 21:09:14.012-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 21:09:14.015-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 21:09:14.421-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 21:09:14.424-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 21:09:14.426-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:54539, -Dfile.encoding=Cp1252]
+2011-10-18 21:09:14.428-0700: 
+2011-10-18 21:09:14.430-0700: create=true
+2011-10-18 21:09:14.432-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 21:09:14.434-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 21:09:14.436-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 21:09:14.438-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 21:09:14.440-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 21:09:14.441-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 21:09:14.444-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 21:09:14.446-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 21:09:14.448-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 21:09:14.450-0700: node_auto_indexing=false
+2011-10-18 21:09:14.451-0700: rebuild_idgenerators_fast=true
+2011-10-18 21:09:14.454-0700: relationship_auto_indexing=false
+2011-10-18 21:09:14.456-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 21:09:14.459-0700: use_memory_mapped_buffers=false
+2011-10-18 21:09:14.461-0700: --- CONFIGURATION END ---
+2011-10-18 21:27:46.652-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 21:27:46.666-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 21:27:46.670-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 21:27:46.676-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 21:27:46.679-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 21:27:46.684-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 21:27:46.688-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 21:27:46.691-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 21:27:46.695-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 21:27:46.699-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 21:27:46.724-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 21:27:46.730-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 21:27:46.733-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 21:27:46.736-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 21:27:46.736-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 21:27:46.739-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 21:27:46.844-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:47.118-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 21:27:47.258-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:47.418-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:47.521-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:48.059-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:48.241-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 21:27:48.400-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 21:27:48.611-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 21:27:48.715-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 21:27:48.715-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 21:27:48.767-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 21:27:48.770-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 21:27:48.784-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=3 lastEntryPos=164
+2011-10-18 21:27:48.787-0700: Internal recovery completed, scanned 3 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 21:27:48.787-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 1 xids
+2011-10-18 21:27:48.790-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 21:27:48.792-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 21:27:48.794-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 21:27:48.799-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 21:27:48.819-0700: --- CONFIGURATION START ---
+2011-10-18 21:27:48.820-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 21:27:48.824-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 21:27:48.828-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 21:27:48.832-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 21:27:48.834-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 21:27:48.836-0700: VM Vendor: Oracle Corporation
+2011-10-18 21:27:48.838-0700: VM Version: 21.0-b17
+2011-10-18 21:27:48.841-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 21:27:48.843-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 21:27:48.846-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 21:27:48.851-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 21:27:48.853-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 21:27:48.855-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:54592, -Dfile.encoding=Cp1252]
+2011-10-18 21:27:48.858-0700: 
+2011-10-18 21:27:48.860-0700: create=true
+2011-10-18 21:27:48.863-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 21:27:48.873-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 21:27:48.875-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 21:27:48.878-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 21:27:48.880-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 21:27:48.882-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 21:27:48.885-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 21:27:48.887-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 21:27:48.889-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 21:27:48.890-0700: node_auto_indexing=false
+2011-10-18 21:27:48.892-0700: rebuild_idgenerators_fast=true
+2011-10-18 21:27:48.894-0700: relationship_auto_indexing=false
+2011-10-18 21:27:48.897-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 21:27:48.899-0700: use_memory_mapped_buffers=false
+2011-10-18 21:27:48.901-0700: --- CONFIGURATION END ---
+2011-10-18 22:15:06.955-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 22:15:06.973-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 22:15:06.977-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 22:15:06.984-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 22:15:06.987-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 22:15:06.992-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 22:15:07.000-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 22:15:07.018-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 22:15:07.030-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 22:15:07.035-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 22:15:07.062-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 22:15:07.070-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 22:15:07.073-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 22:15:07.077-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 22:15:07.077-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 22:15:07.081-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 22:15:07.153-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:07.395-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:15:07.577-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:07.696-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:07.811-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:08.340-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:08.489-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:15:08.616-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:15:08.744-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 22:15:08.808-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 22:15:08.808-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 22:15:08.862-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 22:15:08.864-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 22:15:08.880-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-18 22:15:08.882-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 22:15:08.883-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-18 22:15:08.885-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 22:15:08.887-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 22:15:08.889-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 22:15:08.894-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 22:15:08.914-0700: --- CONFIGURATION START ---
+2011-10-18 22:15:08.915-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 22:15:08.920-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:15:08.926-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:15:08.929-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 22:15:08.931-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 22:15:08.934-0700: VM Vendor: Oracle Corporation
+2011-10-18 22:15:08.936-0700: VM Version: 21.0-b17
+2011-10-18 22:15:08.938-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 22:15:08.941-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 22:15:08.943-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 22:15:08.948-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 22:15:08.950-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 22:15:08.953-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55597, -Dfile.encoding=Cp1252]
+2011-10-18 22:15:08.955-0700: 
+2011-10-18 22:15:08.957-0700: create=true
+2011-10-18 22:15:08.962-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 22:15:08.972-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 22:15:08.975-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 22:15:08.977-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 22:15:08.979-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 22:15:08.981-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 22:15:08.984-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 22:15:08.986-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 22:15:08.988-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 22:15:08.990-0700: node_auto_indexing=false
+2011-10-18 22:15:08.992-0700: rebuild_idgenerators_fast=true
+2011-10-18 22:15:08.995-0700: relationship_auto_indexing=false
+2011-10-18 22:15:08.997-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 22:15:08.999-0700: use_memory_mapped_buffers=false
+2011-10-18 22:15:09.001-0700: --- CONFIGURATION END ---
+2011-10-18 22:22:36.813-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 22:22:37.016-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 22:22:37.029-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 22:22:37.037-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 22:22:37.041-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 22:22:37.046-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 22:22:37.077-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 22:22:37.081-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 22:22:37.086-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 22:22:37.090-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 22:22:37.116-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 22:22:37.124-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 22:22:37.127-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 22:22:37.131-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 22:22:37.131-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 22:22:37.134-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 22:22:37.206-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:37.428-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:22:37.574-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:37.687-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:37.806-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:38.365-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:38.582-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:22:38.751-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:22:38.885-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 22:22:38.952-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 22:22:38.952-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 22:22:39.008-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 22:22:39.011-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 22:22:39.027-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-18 22:22:39.030-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 22:22:39.030-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-18 22:22:39.033-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 22:22:39.035-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 22:22:39.038-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 22:22:39.044-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 22:22:39.065-0700: --- CONFIGURATION START ---
+2011-10-18 22:22:39.065-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 22:22:39.073-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:22:39.077-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:22:39.081-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 22:22:39.084-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 22:22:39.086-0700: VM Vendor: Oracle Corporation
+2011-10-18 22:22:39.088-0700: VM Version: 21.0-b17
+2011-10-18 22:22:39.091-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 22:22:39.094-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 22:22:39.097-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 22:22:39.102-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 22:22:39.104-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 22:22:39.107-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55826, -Dfile.encoding=Cp1252]
+2011-10-18 22:22:39.110-0700: 
+2011-10-18 22:22:39.134-0700: create=true
+2011-10-18 22:22:39.139-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 22:22:39.143-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 22:22:39.146-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 22:22:39.149-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 22:22:39.152-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 22:22:39.156-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 22:22:39.163-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 22:22:39.166-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 22:22:39.169-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 22:22:39.172-0700: node_auto_indexing=false
+2011-10-18 22:22:39.175-0700: rebuild_idgenerators_fast=true
+2011-10-18 22:22:39.178-0700: relationship_auto_indexing=false
+2011-10-18 22:22:39.182-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 22:22:39.184-0700: use_memory_mapped_buffers=false
+2011-10-18 22:22:39.187-0700: --- CONFIGURATION END ---
+2011-10-18 22:23:35.408-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 22:23:35.423-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 22:23:35.427-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 22:23:35.433-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 22:23:35.437-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 22:23:35.442-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 22:23:35.446-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 22:23:35.449-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 22:23:35.454-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 22:23:35.458-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 22:23:35.484-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 22:23:35.491-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 22:23:35.494-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 22:23:35.497-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 22:23:35.497-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 22:23:35.500-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 22:23:35.622-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:35.885-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:23:36.488-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:37.100-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:37.368-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:37.935-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:38.118-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:23:38.257-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:23:38.457-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 22:23:38.539-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 22:23:38.539-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 22:23:38.592-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 22:23:38.594-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 22:23:38.608-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-18 22:23:38.611-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 22:23:38.611-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-18 22:23:38.613-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 22:23:38.616-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 22:23:38.618-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 22:23:38.623-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 22:23:38.650-0700: --- CONFIGURATION START ---
+2011-10-18 22:23:38.650-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 22:23:38.656-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:23:38.660-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:23:38.663-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 22:23:38.666-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 22:23:38.668-0700: VM Vendor: Oracle Corporation
+2011-10-18 22:23:38.670-0700: VM Version: 21.0-b17
+2011-10-18 22:23:38.673-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 22:23:38.675-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 22:23:38.678-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 22:23:38.683-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 22:23:38.685-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 22:23:38.687-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55831, -Dfile.encoding=Cp1252]
+2011-10-18 22:23:38.690-0700: 
+2011-10-18 22:23:38.694-0700: create=true
+2011-10-18 22:23:38.702-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 22:23:38.704-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 22:23:38.708-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 22:23:38.710-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 22:23:38.712-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 22:23:38.714-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 22:23:38.716-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 22:23:38.718-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 22:23:38.721-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 22:23:38.723-0700: node_auto_indexing=false
+2011-10-18 22:23:38.725-0700: rebuild_idgenerators_fast=true
+2011-10-18 22:23:38.727-0700: relationship_auto_indexing=false
+2011-10-18 22:23:38.729-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 22:23:38.731-0700: use_memory_mapped_buffers=false
+2011-10-18 22:23:38.733-0700: --- CONFIGURATION END ---
+2011-10-18 22:26:20.893-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 22:26:20.908-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 22:26:20.912-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 22:26:20.918-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 22:26:20.922-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 22:26:20.926-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 22:26:20.930-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 22:26:20.934-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 22:26:20.938-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 22:26:20.942-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 22:26:20.968-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 22:26:20.975-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 22:26:20.978-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 22:26:20.981-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 22:26:20.981-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 22:26:20.984-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 22:26:21.087-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:21.330-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:26:21.466-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:21.589-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:21.688-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:22.216-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:22.407-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:26:22.529-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:26:22.644-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 22:26:22.710-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 22:26:22.710-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 22:26:22.762-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 22:26:22.765-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 22:26:22.778-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-18 22:26:22.781-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 22:26:22.782-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-18 22:26:22.784-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 22:26:22.786-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 22:26:22.788-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 22:26:22.793-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 22:26:22.814-0700: --- CONFIGURATION START ---
+2011-10-18 22:26:22.814-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 22:26:22.821-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:26:22.826-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:26:22.830-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 22:26:22.833-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 22:26:22.835-0700: VM Vendor: Oracle Corporation
+2011-10-18 22:26:22.837-0700: VM Version: 21.0-b17
+2011-10-18 22:26:22.840-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 22:26:22.842-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 22:26:22.845-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 22:26:22.850-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 22:26:22.852-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 22:26:22.854-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55876, -Dfile.encoding=Cp1252]
+2011-10-18 22:26:22.857-0700: 
+2011-10-18 22:26:22.859-0700: create=true
+2011-10-18 22:26:22.864-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 22:26:22.868-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 22:26:22.871-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 22:26:22.874-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 22:26:22.876-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 22:26:22.878-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 22:26:22.880-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 22:26:22.883-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 22:26:22.885-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 22:26:22.887-0700: node_auto_indexing=false
+2011-10-18 22:26:22.889-0700: rebuild_idgenerators_fast=true
+2011-10-18 22:26:22.891-0700: relationship_auto_indexing=false
+2011-10-18 22:26:22.893-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 22:26:22.895-0700: use_memory_mapped_buffers=false
+2011-10-18 22:26:22.897-0700: --- CONFIGURATION END ---
+2011-10-18 22:27:29.588-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-18 22:27:29.603-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-18 22:27:29.607-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-18 22:27:29.613-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-18 22:27:29.617-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-18 22:27:29.622-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-18 22:27:29.625-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-18 22:27:29.628-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-18 22:27:29.633-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-18 22:27:29.638-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-18 22:27:29.662-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-18 22:27:29.669-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-18 22:27:29.672-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-18 22:27:29.674-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-18 22:27:29.675-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-18 22:27:29.678-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-18 22:27:29.784-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:30.036-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:27:30.179-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:30.327-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:30.452-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:31.021-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:31.424-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-18 22:27:31.753-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-18 22:27:32.055-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-18 22:27:32.225-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-18 22:27:32.225-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-18 22:27:32.295-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-18 22:27:32.297-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-18 22:27:32.311-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-18 22:27:32.313-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-18 22:27:32.314-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-18 22:27:32.316-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-18 22:27:32.319-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-18 22:27:32.321-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-18 22:27:32.327-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-18 22:27:32.349-0700: --- CONFIGURATION START ---
+2011-10-18 22:27:32.350-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-18 22:27:32.355-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:27:32.360-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-18 22:27:32.363-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-18 22:27:32.366-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-18 22:27:32.369-0700: VM Vendor: Oracle Corporation
+2011-10-18 22:27:32.372-0700: VM Version: 21.0-b17
+2011-10-18 22:27:32.375-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-18 22:27:32.377-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-18 22:27:32.380-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-18 22:27:32.386-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-18 22:27:32.388-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-18 22:27:32.390-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55884, -Dfile.encoding=Cp1252]
+2011-10-18 22:27:32.392-0700: 
+2011-10-18 22:27:32.396-0700: create=true
+2011-10-18 22:27:32.401-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-18 22:27:32.407-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-18 22:27:32.410-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-18 22:27:32.412-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-18 22:27:32.415-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-18 22:27:32.416-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-18 22:27:32.419-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-18 22:27:32.421-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-18 22:27:32.423-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-18 22:27:32.425-0700: node_auto_indexing=false
+2011-10-18 22:27:32.427-0700: rebuild_idgenerators_fast=true
+2011-10-18 22:27:32.429-0700: relationship_auto_indexing=false
+2011-10-18 22:27:32.432-0700: store_dir=.\Neo4jdb\default.db
+2011-10-18 22:27:32.434-0700: use_memory_mapped_buffers=false
+2011-10-18 22:27:32.436-0700: --- CONFIGURATION END ---
+2011-10-19 00:47:24.716-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-19 00:47:24.730-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-19 00:47:24.734-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-19 00:47:24.740-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-19 00:47:24.744-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-19 00:47:24.748-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-19 00:47:24.752-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-19 00:47:24.755-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-19 00:47:24.759-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-19 00:47:24.764-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-19 00:47:24.788-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-19 00:47:24.796-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-19 00:47:24.798-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-19 00:47:24.801-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-19 00:47:24.801-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-19 00:47:24.805-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-19 00:47:24.926-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:25.253-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-19 00:47:25.411-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:25.539-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:25.654-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:26.276-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:26.454-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:47:26.594-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-19 00:47:26.711-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-19 00:47:26.784-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-19 00:47:26.785-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-19 00:47:26.836-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-19 00:47:26.839-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-19 00:47:26.852-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-19 00:47:26.855-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-19 00:47:26.856-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-19 00:47:26.858-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-19 00:47:26.860-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-19 00:47:26.863-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-19 00:47:26.869-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-19 00:47:26.892-0700: --- CONFIGURATION START ---
+2011-10-19 00:47:26.892-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-19 00:47:26.897-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:47:26.902-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:47:26.906-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-19 00:47:26.908-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-19 00:47:26.910-0700: VM Vendor: Oracle Corporation
+2011-10-19 00:47:26.912-0700: VM Version: 21.0-b17
+2011-10-19 00:47:26.915-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-19 00:47:26.919-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-19 00:47:26.922-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-19 00:47:26.927-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-19 00:47:26.929-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-19 00:47:26.931-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56225, -Dfile.encoding=Cp1252]
+2011-10-19 00:47:26.934-0700: 
+2011-10-19 00:47:26.937-0700: create=true
+2011-10-19 00:47:26.939-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-19 00:47:26.941-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-19 00:47:26.943-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-19 00:47:26.945-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-19 00:47:26.948-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-19 00:47:26.952-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-19 00:47:26.954-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-19 00:47:26.956-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-19 00:47:26.959-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-19 00:47:26.964-0700: node_auto_indexing=false
+2011-10-19 00:47:26.966-0700: rebuild_idgenerators_fast=true
+2011-10-19 00:47:26.968-0700: relationship_auto_indexing=false
+2011-10-19 00:47:26.971-0700: store_dir=.\Neo4jdb\default.db
+2011-10-19 00:47:26.973-0700: use_memory_mapped_buffers=false
+2011-10-19 00:47:26.975-0700: --- CONFIGURATION END ---
+2011-10-19 00:58:28.594-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-19 00:58:28.611-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-19 00:58:28.615-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-19 00:58:28.622-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-19 00:58:28.626-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-19 00:58:28.632-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-19 00:58:28.635-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-19 00:58:28.639-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-19 00:58:28.644-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-19 00:58:28.649-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-19 00:58:28.679-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-19 00:58:28.687-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-19 00:58:28.690-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=0 lastEntryPos=16
+2011-10-19 00:58:28.697-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-19 00:58:28.698-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-19 00:58:28.704-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-19 00:58:28.792-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:29.066-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2011-10-19 00:58:29.228-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:29.346-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:29.461-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:30.085-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:30.251-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:58:30.567-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=2 defragged count=0
+2011-10-19 00:58:30.755-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-19 00:58:30.902-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-19 00:58:30.902-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-19 00:58:30.963-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-19 00:58:30.967-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-19 00:58:30.986-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=4 lastEntryPos=169
+2011-10-19 00:58:30.989-0700: Internal recovery completed, scanned 4 log entries. Recovered 1 transactions. Last tx recovered: 4
+2011-10-19 00:58:30.989-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-19 00:58:30.992-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-19 00:58:30.994-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-19 00:58:30.996-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-19 00:58:31.003-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-19 00:58:31.045-0700: --- CONFIGURATION START ---
+2011-10-19 00:58:31.046-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-19 00:58:31.055-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:58:31.059-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:58:31.062-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-19 00:58:31.066-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-19 00:58:31.069-0700: VM Vendor: Oracle Corporation
+2011-10-19 00:58:31.071-0700: VM Version: 21.0-b17
+2011-10-19 00:58:31.073-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-19 00:58:31.075-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-19 00:58:31.077-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-19 00:58:31.083-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-19 00:58:31.086-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-19 00:58:31.088-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56283, -Dfile.encoding=Cp1252]
+2011-10-19 00:58:31.090-0700: 
+2011-10-19 00:58:31.093-0700: create=true
+2011-10-19 00:58:31.102-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-19 00:58:31.108-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-19 00:58:31.110-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-19 00:58:31.113-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-19 00:58:31.115-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-19 00:58:31.117-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-19 00:58:31.119-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-19 00:58:31.121-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-19 00:58:31.123-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-19 00:58:31.125-0700: node_auto_indexing=false
+2011-10-19 00:58:31.128-0700: rebuild_idgenerators_fast=true
+2011-10-19 00:58:31.130-0700: relationship_auto_indexing=false
+2011-10-19 00:58:31.132-0700: store_dir=.\Neo4jdb\default.db
+2011-10-19 00:58:31.135-0700: use_memory_mapped_buffers=false
+2011-10-19 00:58:31.137-0700: --- CONFIGURATION END ---
+2011-10-19 00:59:30.960-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-19 00:59:30.978-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-19 00:59:30.983-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-19 00:59:30.990-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-19 00:59:30.994-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-19 00:59:30.999-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-19 00:59:31.003-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-19 00:59:31.007-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-19 00:59:31.011-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-19 00:59:31.019-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-19 00:59:31.057-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.2]. Recovery started ...
+2011-10-19 00:59:31.066-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] logVersion=1 with committed tx=2
+2011-10-19 00:59:31.111-0700: [.\Neo4jdb\default.db\nioneo_logical.log.2] entries found=36 lastEntryPos=1426
+2011-10-19 00:59:31.114-0700: Internal recovery completed, scanned 36 log entries. Recovered 5 transactions. Last tx recovered: 7
+2011-10-19 00:59:31.114-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 1 xids
+2011-10-19 00:59:31.118-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-19 00:59:31.472-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2011-10-19 00:59:31.901-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=7 defragged count=0
+2011-10-19 00:59:32.156-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=6 defragged count=0
+2011-10-19 00:59:32.341-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:59:32.456-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-19 00:59:32.975-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=4 defragged count=0
+2011-10-19 00:59:33.308-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=3 defragged count=0
+2011-10-19 00:59:33.425-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=5 defragged count=0
+2011-10-19 00:59:33.535-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-19 00:59:33.660-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-19 00:59:33.660-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.2] completed.
+2011-10-19 00:59:33.728-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2]. Recovery started ...
+2011-10-19 00:59:33.730-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] logVersion=1 with committed tx=3
+2011-10-19 00:59:34.104-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] entries found=30 lastEntryPos=1094
+2011-10-19 00:59:34.109-0700: Internal recovery completed, scanned 30 log entries. Recovered 5 transactions. Last tx recovered: 8
+2011-10-19 00:59:34.110-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 1 xids
+2011-10-19 00:59:34.112-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-19 00:59:34.115-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-19 00:59:34.117-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] completed.
+2011-10-19 00:59:34.122-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-19 00:59:34.127-0700: TM non resolved transactions found in ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-19 00:59:34.420-0700: Rotating [.\Neo4jdb\default.db\nioneo_logical.log.2] @ version=1 to .\Neo4jdb\default.db\nioneo_logical.log.1 from position 1431
+2011-10-19 00:59:34.470-0700: Rotate: old log scanned, newLog @ pos=16
+2011-10-19 00:59:34.537-0700: Log rotated, newLog @ pos=16 and version 2
+2011-10-19 00:59:34.616-0700: Rotating [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.2] @ version=1 to C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1 from position 1099
+2011-10-19 00:59:34.697-0700: Rotate: old log scanned, newLog @ pos=16
+2011-10-19 00:59:34.773-0700: Log rotated, newLog @ pos=16 and version 2
+2011-10-19 00:59:34.777-0700: Recovery completed, all transactions have been resolved to a consistent state.
+2011-10-19 00:59:34.819-0700: --- CONFIGURATION START ---
+2011-10-19 00:59:34.822-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-19 00:59:34.828-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:59:34.832-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 00:59:34.836-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-19 00:59:34.838-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-19 00:59:34.841-0700: VM Vendor: Oracle Corporation
+2011-10-19 00:59:34.844-0700: VM Version: 21.0-b17
+2011-10-19 00:59:34.846-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-19 00:59:34.849-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-19 00:59:34.874-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-19 00:59:34.880-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-19 00:59:34.885-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-19 00:59:34.888-0700: VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:56293, -Dfile.encoding=Cp1252]
+2011-10-19 00:59:34.890-0700: 
+2011-10-19 00:59:34.892-0700: create=true
+2011-10-19 00:59:34.896-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-19 00:59:34.903-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-19 00:59:34.905-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-19 00:59:34.908-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-19 00:59:34.910-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-19 00:59:34.913-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-19 00:59:34.916-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-19 00:59:34.918-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-19 00:59:34.922-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-19 00:59:34.926-0700: node_auto_indexing=false
+2011-10-19 00:59:34.929-0700: rebuild_idgenerators_fast=true
+2011-10-19 00:59:34.932-0700: relationship_auto_indexing=false
+2011-10-19 00:59:34.937-0700: store_dir=.\Neo4jdb\default.db
+2011-10-19 00:59:34.940-0700: use_memory_mapped_buffers=false
+2011-10-19 00:59:34.944-0700: --- CONFIGURATION END ---
+2011-10-19 01:23:40.339-0700: .\Neo4jdb\default.db\neostore non clean shutdown detected
+2011-10-19 01:23:40.364-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db non clean shutdown detected
+2011-10-19 01:23:40.368-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names non clean shutdown detected
+2011-10-19 01:23:40.375-0700: .\Neo4jdb\default.db\neostore.propertystore.db non clean shutdown detected
+2011-10-19 01:23:40.378-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings non clean shutdown detected
+2011-10-19 01:23:40.382-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index non clean shutdown detected
+2011-10-19 01:23:40.386-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys non clean shutdown detected
+2011-10-19 01:23:40.390-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays non clean shutdown detected
+2011-10-19 01:23:40.394-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db non clean shutdown detected
+2011-10-19 01:23:40.398-0700: .\Neo4jdb\default.db\neostore.nodestore.db non clean shutdown detected
+2011-10-19 01:23:40.421-0700: Non clean shutdown detected on log [.\Neo4jdb\default.db\nioneo_logical.log.1]. Recovery started ...
+2011-10-19 01:23:40.428-0700: [.\Neo4jdb\default.db\nioneo_logical.log.1] logVersion=2 with committed tx=7
+2011-10-19 01:23:40.430-0700: [.\Neo4jdb\default.db\nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2011-10-19 01:23:40.433-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-19 01:23:40.434-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] sorting 0 xids
+2011-10-19 01:23:40.437-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] checkRecoveryComplete 0 xids
+2011-10-19 01:23:40.648-0700: .\Neo4jdb\default.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2011-10-19 01:23:40.914-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index.keys rebuild id generator, highId=7 defragged count=0
+2011-10-19 01:23:41.062-0700: .\Neo4jdb\default.db\neostore.propertystore.db.index rebuild id generator, highId=6 defragged count=0
+2011-10-19 01:23:41.178-0700: .\Neo4jdb\default.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2011-10-19 01:23:41.297-0700: .\Neo4jdb\default.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2011-10-19 01:23:41.795-0700: .\Neo4jdb\default.db\neostore.propertystore.db rebuild id generator, highId=4 defragged count=0
+2011-10-19 01:23:42.159-0700: .\Neo4jdb\default.db\neostore.relationshipstore.db rebuild id generator, highId=3 defragged count=0
+2011-10-19 01:23:42.358-0700: .\Neo4jdb\default.db\neostore.nodestore.db rebuild id generator, highId=5 defragged count=0
+2011-10-19 01:23:42.483-0700: .\Neo4jdb\default.db\neostore rebuild id generator, highId=4 defragged count=0
+2011-10-19 01:23:42.560-0700: XaResourceManager[.\Neo4jdb\default.db\nioneo_logical.log] recovery completed.
+2011-10-19 01:23:42.560-0700: Recovery on log [.\Neo4jdb\default.db\nioneo_logical.log.1] completed.
+2011-10-19 01:23:42.618-0700: Non clean shutdown detected on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1]. Recovery started ...
+2011-10-19 01:23:42.621-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] logVersion=2 with committed tx=8
+2011-10-19 01:23:42.623-0700: [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] entries found=0 lastEntryPos=16
+2011-10-19 01:23:42.625-0700: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2011-10-19 01:23:42.625-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] sorting 0 xids
+2011-10-19 01:23:42.627-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] checkRecoveryComplete 0 xids
+2011-10-19 01:23:42.629-0700: XaResourceManager[C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log] recovery completed.
+2011-10-19 01:23:42.631-0700: Recovery on log [C:\dev\workspace\chalanga\Foosball\.\Neo4jdb\default.db\index\lucene.log.1] completed.
+2011-10-19 01:23:42.636-0700: TM opening log: ./Neo4jdb/default.db\tm_tx_log.1
+2011-10-19 01:23:42.657-0700: --- CONFIGURATION START ---
+2011-10-19 01:23:42.657-0700: Physical mem: 4082MB, Heap size: 908MB
+2011-10-19 01:23:42.662-0700: Kernel version: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 01:23:42.666-0700: Neo4j - Graph Database Kernel 1.5.M02
+2011-10-19 01:23:42.669-0700: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 2
+2011-10-19 01:23:42.671-0700: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2011-10-19 01:23:42.673-0700: VM Vendor: Oracle Corporation
+2011-10-19 01:23:42.675-0700: VM Version: 21.0-b17
+2011-10-19 01:23:42.678-0700: Boot Class Path: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes
+2011-10-19 01:23:42.680-0700: Class Path: C:\dev\workspace\chalanga\Foosball\gae-war\WEB-INF\classes;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\appengine-tools-api.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\javax.persistence.jar;C:\dev\workspace\chalanga\Foosball\gae-dev-lib\objectify-3.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\aopalliance.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\guice-servlet-2.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\javax.inject.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-bundle-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-guice-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jersey-multipart-1.9.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-continuation-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-http-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-io-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-security-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-server-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-servlet-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jetty-util-7.5.3.v20111011.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\jsr311-api-1.1.1.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\lucene-core-3.1.0.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\mimepull-1.8.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-community-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-kernel-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\neo4j-lucene-index-1.5.M02.jar;C:\dev\workspace\chalanga\Foosball\neo4j-dev-lib\servlet-api-2.5.jar
+2011-10-19 01:23:42.682-0700: Library Path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Common Files\Ulead Systems\MPEG;c:\dev\java\jdk1.6.0_18\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\MySQL\MySQL Server 5.5\bin;.
+2011-10-19 01:23:42.687-0700: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2011-10-19 01:23:42.689-0700: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2011-10-19 01:23:42.691-0700: VM Arguments: [-Dfile.encoding=Cp1252]
+2011-10-19 01:23:42.693-0700: 
+2011-10-19 01:23:42.696-0700: create=true
+2011-10-19 01:23:42.698-0700: logical_log=.\Neo4jdb\default.db\nioneo_logical.log
+2011-10-19 01:23:42.701-0700: neo_store=.\Neo4jdb\default.db\neostore
+2011-10-19 01:23:42.703-0700: neostore.nodestore.db.mapped_memory=20M
+2011-10-19 01:23:42.705-0700: neostore.propertystore.db.arrays.mapped_memory=130M
+2011-10-19 01:23:42.708-0700: neostore.propertystore.db.index.keys.mapped_memory=1M
+2011-10-19 01:23:42.711-0700: neostore.propertystore.db.index.mapped_memory=1M
+2011-10-19 01:23:42.714-0700: neostore.propertystore.db.mapped_memory=90M
+2011-10-19 01:23:42.716-0700: neostore.propertystore.db.strings.mapped_memory=130M
+2011-10-19 01:23:42.722-0700: neostore.relationshipstore.db.mapped_memory=100M
+2011-10-19 01:23:42.725-0700: node_auto_indexing=false
+2011-10-19 01:23:42.727-0700: rebuild_idgenerators_fast=true
+2011-10-19 01:23:42.729-0700: relationship_auto_indexing=false
+2011-10-19 01:23:42.731-0700: store_dir=.\Neo4jdb\default.db
+2011-10-19 01:23:42.733-0700: use_memory_mapped_buffers=false
+2011-10-19 01:23:42.735-0700: --- CONFIGURATION END ---
